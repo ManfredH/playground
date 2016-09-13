@@ -10,8 +10,9 @@ public class Zoo {
 	public void addAnimal(Animal animal) {
 		animals.add(animal);
 	}
-	
+
 	public String makeNoise() {
+		System.out.println("Zoo: makeNoise");
 		StringBuilder sounds = new StringBuilder();
 		// for (T obj : objects)
 		for (Animal a : animals) {

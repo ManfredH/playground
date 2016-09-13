@@ -1,6 +1,6 @@
 package zoo;
 
-public class Penguin implements Animal {
+public class Penguin extends SeaBird implements Animal {
 
 	@Override
 	public String getName() {
@@ -10,8 +10,10 @@ public class Penguin implements Animal {
 
 	@Override
 	public String makeNoise() {
+		System.out.println("Penguin: makeNoise");
+		String result = super.makeNoise();
 		// TODO Auto-generated method stub
-		return null;
+		return result;
 	}
 
 }
