@@ -1,6 +1,0 @@
-<application>
-  <component name="PathMacrosImpl">
-    <macro name="MAVEN_REPOSITORY" value="C:\Users\boss\.m2\repository" />
-    <macro name="KOTLIN_BUNDLED" value="C:\intellij\plugins\Kotlin\kotlinc" />
-  </component>
-</application>
