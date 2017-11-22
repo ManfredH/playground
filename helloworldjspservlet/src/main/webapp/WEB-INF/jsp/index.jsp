@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-Hello world!
+Hello world from behind the proxy wall :-)
 </body>
 </html>
