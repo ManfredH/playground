@@ -12,7 +12,7 @@ import javax.annotation.PostConstruct;
 public class DemoClient {
 
     @Autowired
-    private RestTemplate restTemplate;
+    private RestProxyTemplate restTemplate;
 
     private String componentName;
 
@@ -26,7 +26,7 @@ public class DemoClient {
         String url_template = "https://api.github.com/repos/spring-projects/spring-framework/commits";
 
         String result;
-        result = restTemplate.getForObject(url_template, String.class);
+        result = restTemplate.getRestTemplate().getForObject(url_template, String.class);
         System.out.println(result);
 
     }
